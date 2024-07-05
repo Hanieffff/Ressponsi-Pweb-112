@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Haven</title>
+    <link rel="stylesheet" href="responsi.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Book Haven</h1>
+        <h2>Alya</h2>
+        <form id="rent-form" action="process_rent.php" method="post">
+            <label for="judul_buku">Judul Buku:</label>
+            <input type="text" id="judul_buku" name="judul_buku">
+            <label for="nama">Nama:</label><input type="text" id="nama" name="nama"><br><br>
+            <label for="tanggal_pengembalian">Tanggal Pengembalian:</label><input type="date" id="tanggal_pengembalian" name="tanggal_pengembalian"><br><br>
+            <input type="submit" value="Sewa">
+        </form>
+        <div id="book-list">
+        </div>
+    </header>
+
+    <script src="responsi.js"></script>
+</body>
+</html>

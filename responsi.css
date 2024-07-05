@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#rent-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#rent-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#rent-form input[type="text"],
+#rent-form input[type="date"],
+#rent-form input[type="submit"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#book-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.book-item img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.book-item h2 {
+    font-weight: bold;
+}
+
+.book-item p {
+    margin: 5px 0;
+}
+
+#rent-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rent-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
